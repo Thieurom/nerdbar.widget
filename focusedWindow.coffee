@@ -4,7 +4,6 @@ refreshFrequency: 1000 # ms
 
 render: (_) ->
   """
-  <link rel="stylesheet" href="./assets/flaticon/font/flaticon.css" />
   <div class="fw"></div>
   """
 
