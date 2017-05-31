@@ -1,5 +1,6 @@
 # Nerdbar
 Übersicht system information bar for use with [kwm window manager](https://github.com/koekeishiya/kwm).
+![screenshot](screenshot.png)
 
 ## Widgets
 - List of spaces, with active one highlighted
