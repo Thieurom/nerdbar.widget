@@ -52,7 +52,7 @@ style: """
         text-align: center
 
         &--active
-          background-color: rgba(#0F6B9B,0.7)
+          background-color: #0F6288
 
     .icon
       font-size: 12px

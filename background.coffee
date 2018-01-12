@@ -9,6 +9,5 @@ style: """
   right: 0
   height: 24px
   background-color: #000
-  opacity: 0.6
   z-index: -1
 """

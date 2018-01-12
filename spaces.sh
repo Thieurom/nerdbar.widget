@@ -1,7 +1,7 @@
 #!/bin/sh
 
-kwmc=/usr/local/bin/kwmc
+chunkc=/usr/local/bin/chunkc
 
-active=$($kwmc query space active id)
-total=$($kwmc query space list | grep -o , | wc -l)
+active=$($chunkc tiling::query --desktop id)
+total=$($chunkc tiling::query --desktops-for-monitor 1 | wc -w)
 echo "$active | $total"
